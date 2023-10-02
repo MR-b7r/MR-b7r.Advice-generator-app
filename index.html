@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="/dist/output.css">
+  <link rel="stylesheet" href="/app/input.css">
+  <link rel="stylesheet" href="/app/style.css">
+  <title>Advice App</title>
+</head>
+<body class="relative bg-neutral-Dark-Blue flex items-center justify-center flex-col w-screen h-screen">
+  
+  <div class="container relative mx-5  flex items-center justify-center flex-col gap-8 bg-neutral-Dark-Grayish-Blue py-8 px-9 max-w-xl rounded-xl">
+    
+    <div class="advice text-primary-Neon-Green tracking-5 font-medium text-sm">ADVICE #<span class="advice-number"></span></div>
+   
+    <div class="text text-primary-Light-Cyan font-extrabold text-2xl ">
+      <p class="quote tracking-wider text-center "></p>
+    </div>
+
+    <img src="images/pattern-divider-desktop.svg" alt="" class=" divider-desktop mb-6 pointer-events-none sm:block Msm:hidden">
+    <img src="images/pattern-divider-mobile.svg" alt="" class=" divider-mob mb-6  pointer-events-none Msm:block sm:hidden">
+
+    <div class="dice p-4 rounded-circel bg-primary-Neon-Green absolute bottom-0 left-auto translate-y-1/2 cursor-pointer transition ease-in duration-300 hover:shadow-diceShadow ">
+      <img src="images/icon-dice.svg" alt="" class="">
+    </div>
+  </div>
+
+  <footer class="flex items-center justify-center m-[5px] text-primary-Light-Cyan absolute bottom-0 left-auto">
+    <div class="copyright text-[10px]">
+      Challenge by <a href="https://www.frontendmentor.io/home" target="_blank" class="font-bold text-xs text-primary-Neon-Green">Frontend Mentor </a>
+      | Coded by <a class="is-hoverable text-xs font-bold text-primary-Neon-Green" href="https://github.com/MR-b7r" target="_blank">Haitham Bahr</a>.
+    </div>
+  </footer>
+
+  <script src="/app/main.js"></script>
+</body>
+</html>
